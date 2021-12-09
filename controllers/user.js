@@ -102,4 +102,4 @@ const generateNewID = (req, res) => {
     const newPaymentID = nanoid(7);
 
 }
-module.exports = { signUp, signIn, requireSignIn, tokenValid, confirmUser, hasAuthorization, getUsers, generatePaymentID };
+module.exports = { signUp, signIn, requireSignIn, tokenValid, confirmUser, hasAuthorization, getUsers, generateNewID };
